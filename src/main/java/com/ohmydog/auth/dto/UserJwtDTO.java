@@ -1,4 +1,4 @@
-package com.ohmydog.infra.security;
+package com.ohmydog.auth.dto;
 
 public record UserJwtDTO(String token) {
 }

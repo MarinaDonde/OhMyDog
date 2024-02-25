@@ -1,8 +1,8 @@
-package com.ohmydog.resources;
+package com.ohmydog.user.resource;
 
-import com.ohmydog.dto.UserDTO;
-import com.ohmydog.entities.User;
-import com.ohmydog.services.UserService;
+import com.ohmydog.user.dto.UserDTO;
+import com.ohmydog.user.entity.User;
+import com.ohmydog.user.service.UserService;
 import jakarta.transaction.Transactional;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

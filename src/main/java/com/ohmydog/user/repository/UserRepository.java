@@ -1,6 +1,6 @@
-package com.ohmydog.repositories;
+package com.ohmydog.user.repository;
 
-import com.ohmydog.entities.User;
+import com.ohmydog.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Repository;

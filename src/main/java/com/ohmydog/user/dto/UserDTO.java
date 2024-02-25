@@ -1,6 +1,6 @@
-package com.ohmydog.dto;
+package com.ohmydog.user.dto;
 
-import com.ohmydog.entities.User;
+import com.ohmydog.user.entity.User;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

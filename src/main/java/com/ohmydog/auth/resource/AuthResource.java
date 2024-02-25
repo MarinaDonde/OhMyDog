@@ -1,9 +1,9 @@
-package com.ohmydog.resources;
+package com.ohmydog.auth.resource;
 
-import com.ohmydog.dto.LoginDTO;
-import com.ohmydog.entities.User;
-import com.ohmydog.infra.security.TokenService;
-import com.ohmydog.infra.security.UserJwtDTO;
+import com.ohmydog.auth.dto.LoginDTO;
+import com.ohmydog.user.entity.User;
+import com.ohmydog.auth.service.TokenService;
+import com.ohmydog.auth.dto.UserJwtDTO;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

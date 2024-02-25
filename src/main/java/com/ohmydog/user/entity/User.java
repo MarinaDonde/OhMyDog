@@ -1,4 +1,4 @@
-package com.ohmydog.entities;
+package com.ohmydog.user.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

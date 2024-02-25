@@ -1,7 +1,8 @@
-package com.ohmydog.infra.security;
+package com.ohmydog.auth.security;
 
-import com.ohmydog.entities.User;
-import com.ohmydog.repositories.UserRepository;
+import com.ohmydog.auth.service.TokenService;
+import com.ohmydog.user.entity.User;
+import com.ohmydog.user.repository.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

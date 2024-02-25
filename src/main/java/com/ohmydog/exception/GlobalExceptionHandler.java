@@ -1,4 +1,4 @@
-package com.ohmydog.infra.exception;
+package com.ohmydog.exception;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.HttpStatus;

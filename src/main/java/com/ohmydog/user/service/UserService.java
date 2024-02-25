@@ -1,7 +1,7 @@
-package com.ohmydog.services;
+package com.ohmydog.user.service;
 
-import com.ohmydog.entities.User;
-import com.ohmydog.repositories.UserRepository;
+import com.ohmydog.user.entity.User;
+import com.ohmydog.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

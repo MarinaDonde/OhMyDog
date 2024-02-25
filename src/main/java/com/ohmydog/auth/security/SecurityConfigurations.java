@@ -1,4 +1,4 @@
-package com.ohmydog.infra.security;
+package com.ohmydog.auth.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

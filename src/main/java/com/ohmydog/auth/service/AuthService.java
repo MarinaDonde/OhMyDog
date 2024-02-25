@@ -1,6 +1,6 @@
-package com.ohmydog.services;
+package com.ohmydog.auth.service;
 
-import com.ohmydog.repositories.UserRepository;
+import com.ohmydog.user.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
