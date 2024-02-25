@@ -4,7 +4,6 @@ import com.ohmydog.dto.UserDTO;
 import com.ohmydog.entities.User;
 import com.ohmydog.services.UserService;
 import jakarta.transaction.Transactional;
-import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
