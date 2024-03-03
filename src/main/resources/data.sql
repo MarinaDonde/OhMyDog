@@ -1,0 +1,2 @@
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+INSERT INTO tb_user (id, username, email, password) VALUES (uuid_generate_v4(), 'teste', 'teste@gmail.com', '$2a$12$vw7ieF.VHvjsT93Njfcxvup4yZqPv5Ctxca4Qe4uG61KGq1Kp.V5q');
